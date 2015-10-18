@@ -47,12 +47,10 @@ html {
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+     color: #606161;
+     font-size: 13px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -64,23 +62,50 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  height: 1000px;
+  border: 3px solid green;
 
 }
 
 header {
-
+  background: url(../images/header_bg.jpg) no-repeat center top;
+  width: 1200px;
+  height: 700px;
+  border: 3px solid red;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 footer {
-
+  background: #000;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-logo
-{
-  font-family: 'Open Sans', sans-serif;
+.splash {
+  color: #FFF;
+  font-size: 24px;
+}
+
+.logo {
+    font-weight: 800;
+}
+
+.tagline {
+  font-weight: 600;
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid yellow;
+}
+
+
+.button {
   font-weight: 800;
+  border-radius: 5px;
+}
+
+header .buttontext {
+  font-size: 14px;
 }
