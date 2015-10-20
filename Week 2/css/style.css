@@ -119,7 +119,7 @@ footer {
 
 .header_button_position {
   margin-top: 50px;
-  margin-left: 275px;
+  text-align: center;
 }
 
 .benefits_layout {
@@ -159,8 +159,7 @@ footer {
 
 .quote {
   width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align: center;
   color: #F0EFEF;
   font-size: 18px;
@@ -187,7 +186,7 @@ footer {
 
 .signup_button_position {
   margin-top: 0;
-  margin-left: 275px; 
+  text-align: center; 
 }
 
 .footer_logo_position {
